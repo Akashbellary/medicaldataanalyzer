@@ -1,0 +1,22 @@
+# Core dependencies for LlamaIndex and Pinecone
+llama-index-core  # Pinned to your installed version
+llama-index-vector-stores-pinecone
+llama-index-embeddings-nvidia
+llama-index-llms-nvidia
+pinecone  # Updated to the renamed package, latest version as of April 2025
+
+# Streamlit for the web interface
+streamlit
+
+# Document processing dependencies
+PyMuPDF  # For PDF processing (fitz)
+python-pptx  # For PowerPoint processing
+pandas  # For table extraction and saving to Excel
+
+# Image processing and API requests
+Pillow  # For image handling (PIL)
+requests  # For NVIDIA API calls
+
+# Additional dependencies
+python-dotenv  # For environment variable management
+sentence-transformers  # For text embeddings
